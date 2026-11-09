@@ -33,7 +33,6 @@ api-tareas-docker/
 │
 ├── .dockerignore
 ├── .gitignore
-├── .env
 ├── .env.example
 ├── docker-compose.yml
 └── README.md
