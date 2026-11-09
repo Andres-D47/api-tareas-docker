@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Descargar codigo del repositorio
+      - name: Descargar código del repositorio
         uses: actions/checkout@v4
 
-      - name: Configurara Docker Buildx
-        uses: docker/build-push-action@v3
+      - name: Configurar Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
       - name: Construir imagen de la API
         uses: docker/build-push-action@v6
