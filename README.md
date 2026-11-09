@@ -126,11 +126,12 @@ La API se encuentra disponible en:
 
 "http://localhost:5000"
 
-Método| Endpoint| Descripción
-GET| "/"| Información general de la API
-GET| "/health"| Verificación del estado de la API
-POST| "/tasks"| Registrar una nueva tarea
-GET| "/tasks"| Consultar todas las tareas registradas
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | "/" | Información general de la API |
+| GET | "/health" | Verificación del estado de la API |
+| POST | "/tasks" | Registrar una nueva tarea |
+| GET | "/tasks" | Consultar todas las tareas registradas |
 
 ### 7.1. Registrar una tarea
 
