@@ -20,6 +20,7 @@ El proyecto implementa una red personalizada de Docker que permite la comunicaci
 
 3. Estructura del proyecto
 
+```
 api-tareas-docker/
 │
 ├── app/
@@ -36,6 +37,7 @@ api-tareas-docker/
 ├── .env.example
 ├── docker-compose.yml
 └── README.md
+```
 
 4. Requisitos previos
 
