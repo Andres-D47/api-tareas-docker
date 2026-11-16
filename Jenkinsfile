@@ -14,6 +14,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
+                error 'Fallo controlado para evidenciar una ejecucion fallida'
+                
                 echo 'Descargando codigo desde GitHub...'
                 checkout scm
             }
