@@ -20,7 +20,10 @@ services:
       - tareas_network
 
   db:
-    image: postgres:16-alpine
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    image: api-tareas-db:1.0
     container_name: postgres_tareas
     environment:
       POSTGRES_DB: ${DB_NAME}

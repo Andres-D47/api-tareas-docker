@@ -32,8 +32,7 @@ pipeline {
                 ]) {
                     sh '''
                         set +x
-                        docker compose build app
-                        docker compose pull db
+                        docker compose build
                     '''
                 }
             }
